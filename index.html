@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Beautique</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <div class="w3-content" style="margin-top:30px">
+        <!-- Logo -->
+        <img src="theBeautique.png" alt="The Beautique" class="logo">
+    </div>
+    
     <style>
         body {
             background-color: #FFF5EE;
@@ -19,15 +26,56 @@
             margin: 20px auto;
             display: block;
         }
-    </style>
-</head>
+        .slideshow-container {
+            position: relative;
+            max-width: 80%; 
+            margin: auto;
+            text-align: center; /* Center the text and images */
+        }
 
-<body>
-    <div class="w3-content" style="margin-top:30px">
-        <!-- Logo -->
-        <img src="theBeautique.png" alt="The Beautique" class="logo">
-    </div>
-</body>
+          /* Hide the images by default */
+          .mySlides {
+            display: none;
+            text-align: center; /* Center the images */
+          }
+
+          /* Fading effect */
+          .fade {
+            animation: fade 1.5s ease-in-out;
+          }
+
+          @keyframes fade {
+            from { opacity: .4 }
+            to { opacity: 1 }
+          }
+        
+          /* Style the images */
+          .mySlides img {
+            max-width: 80%; /* Make sure images do not exceed container width */
+            height: auto; 
+            max-height: 400px; 
+            display: block; /* Remove bottom space */
+            margin: 0 auto; /* Center the image */
+          }
+        
+          /* Style the dots/circles */
+          .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+          }
+        
+          .active {
+            background-color: #717171;
+          }
+        
+</style>
+
+
 
     
     <!-- Slideshow container -->
@@ -113,4 +161,6 @@ function showSlides() {
 }
 </script>
 
+    
+</body>
 </html>
