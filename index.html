@@ -16,46 +16,6 @@
     </div>
 
     
-    <style>
-        body {
-            background-color: #FFF5EE;
-        }
-
-        .logo {
-            width: 800px;
-            height: auto;
-            margin: 20px auto;
-            display: block;
-        }
-        .slideshow-container {
-            position: relative;
-            max-width: 50%; 
-            margin: auto;
-            text-align: center; /* Center the text and images */
-        }
-
-          /* Hide the images by default */
-          .mySlides {
-            display: none;
-            text-align: center; /* Center the images */
-          }
-
-
-        
-          /* Style the images */
-          .mySlides img {
-            max-width: 50%; /* Make sure images do not exceed container width */
-            height: auto; 
-            max-height: auto; 
-            display: block; /* Remove bottom space */
-            margin: 0 auto; /* Center the image */
-          }
-        
-</style>
-
-
-
-    
     <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -104,28 +64,6 @@
         <div class="numbertext">9 / 9</div>
             <img src="nail9.jpeg" style="width:100%">
   </div>
-
-
-
-    
-<script>
-    //automatic
-let slideIndex = 0; 
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 3000); 
-}
-</script>
-
     
 </body>
 </html>
