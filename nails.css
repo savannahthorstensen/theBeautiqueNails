@@ -1,1 +1,36 @@
+  <style>
+        body {
+            background-color: #FFF5EE;
+        }
 
+        .logo {
+            width: 800px;
+            height: auto;
+            margin: 20px auto;
+            display: block;
+        }
+        .slideshow-container {
+            position: relative;
+            max-width: 50%; 
+            margin: auto;
+            text-align: center; /* Center the text and images */
+        }
+
+          /* Hide the images by default */
+          .mySlides {
+            display: none;
+            text-align: center; /* Center the images */
+          }
+
+
+        
+          /* Style the images */
+          .mySlides img {
+            max-width: 50%; 
+            height: auto; 
+            max-height: auto; 
+            display: block; /* Remove bottom space */
+            margin: 0 auto; /* Center the image */
+          }
+        
+</style>
