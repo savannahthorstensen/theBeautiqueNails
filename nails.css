@@ -1,36 +1,33 @@
   <style>
-        body {
-            background-color: #FFF5EE;
-        }
+    body {
+        background-color: #FFF5EE;
+    }
 
-        .logo {
-            width: 800px;
-            height: auto;
-            margin: 20px auto;
-            display: block;
-        }
-        .slideshow-container {
-            position: relative;
-            max-width: 50%; 
-            margin: auto;
-            text-align: center; /* Center the text and images */
-        }
+    .logo {
+        width: 800px;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
 
-          /* Hide the images by default */
-          .mySlides {
-            display: none;
-            text-align: center; /* Center the images */
-          }
+    .slideshow-container {
+        position: relative;
+        max-width: 80%; 
+        margin: auto;
+        text-align: center; 
+    }
 
+    
+    .mySlides {
+        display: none; 
+        text-align: center; 
+    }
 
-        
-          /* Style the images */
-          .mySlides img {
-            max-width: 50%; 
-            height: auto; 
-            max-height: auto; 
-            display: block; /* Remove bottom space */
-            margin: 0 auto; /* Center the image */
-          }
-        
+    .mySlides img {
+        max-width: 100%; 
+        height: auto; 
+        display: block; 
+        margin: 0 auto; 
+    }
 </style>
+
