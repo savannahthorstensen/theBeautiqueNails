@@ -1,5 +1,5 @@
 let slideIndex = 0; 
-showSlides();
+//showSlides();
 
 function showSlides() {
   let slides = document.getElementsByClassName("mySlides");
