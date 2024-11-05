@@ -77,34 +77,5 @@
 
     </div> 
 
-    <script>
-        let slideIndex = 0;
-
-        function showSlides() {
-            let slides = document.getElementsByClassName("mySlides");
-
-            // Hide all slides
-            for (let i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-
-            // Increment slide index
-            slideIndex++;
-
-            // Loop back to the first slide
-            if (slideIndex > slides.length) {
-                slideIndex = 1;
-            }
-
-            // Show the current slide
-            slides[slideIndex - 1].style.display = "block";
-
-            // Call showSlides every 5 seconds
-            setTimeout(showSlides, 5000);
-        }
-
-        // Initialize the slideshow
-        showSlides();
-    </script>
 </body>
 </html>
