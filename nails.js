@@ -1,5 +1,5 @@
 let slideIndex = 0; 
-//showSlides();
+showSlides();
 
 function showSlides() {
   let slides = document.getElementsByClassName("mySlides");
@@ -24,6 +24,4 @@ function showSlides() {
   setTimeout(showSlides, 3000); 
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-            showSlides();
-        });
+document.addEventListener("DOMContentLoaded", showSlides);
