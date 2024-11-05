@@ -24,4 +24,6 @@ function showSlides() {
   setTimeout(showSlides, 3000); 
 }
 
-document.addEventListener("DOMContentLoaded", showSlides);
+document.addEventListener("DOMContentLoaded", function() {
+            showSlides();
+        });
